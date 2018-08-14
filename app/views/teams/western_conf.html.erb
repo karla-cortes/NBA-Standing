@@ -1,0 +1,6 @@
+<%=image_tag("http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=288&h=288&transparent=true", class: "img-responsive center-block")%>
+
+<h1>Western Conference</h1>
+<%= render 'table', teams: @teams %>
+<%= link_to 'League', league_path, class:"btn "%>
+<%= link_to 'Eastern Conference', eastern_path, class:"btn" %>
